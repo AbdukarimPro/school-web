@@ -4,21 +4,21 @@ import "./header.css";
 
 const navLinks = [
   {
-    display: "Home",
-    url: "#",
+    display: "Bosh Sahifa",
+    url: "/",
   },
   {
-    display: "About",
-    url: "#",
+    display: "Maktab Haqida",
+    url: "/",
   },
 
   {
-    display: "Courses",
-    url: "#",
+    display: "To'garaklar",
+    url: "/",
   },
   {
-    display: "Pages",
-    url: "#",
+    display: "Gallareya",
+    url: "#gallery",
   },
   {
     display: "Blog",
@@ -30,14 +30,13 @@ const Header = () => {
   const menuRef = useRef();
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
-
   return (
     <header className="header">
       <Container>
-        <div className="navigation d-flex align-items-center justify-content-between">
+        <div className="navigation w-100 d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-file-paper-2-line"></i> 33-MAKTAB
             </h2>
           </div>
 
@@ -54,7 +53,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-phone-line"></i> +998 93 578 20 21
               </p>
             </div>
           </div>
