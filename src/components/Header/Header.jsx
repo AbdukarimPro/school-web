@@ -9,20 +9,20 @@ const navLinks = [
   },
   {
     display: "Maktab Haqida",
-    url: "/",
+    url: "/about",
   },
 
   {
     display: "To'garaklar",
-    url: "/",
+    url: "/courses",
   },
   {
-    display: "Gallareya",
-    url: "#gallery",
+    display: "Yutuqlar",
+    url: "/gallery",
   },
   {
-    display: "Blog",
-    url: "#",
+    display: "Aloqa",
+    url: "/contact",
   },
 ];
 

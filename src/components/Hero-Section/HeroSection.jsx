@@ -15,9 +15,7 @@ const HeroSection = () => {
                 Kelibsiz!
               </h2>
               <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-                Aut saepe voluptatum earum delectus <br /> deserunt id iste,
-                quas officiis et repellat!
+                Ushbu veb sayt 33-o'rta ta'lim maktabi <br /> uchun maxsus tayyorlandi.<br /> Bu veb sayt orqali maktab haqida ma'lumot <br/>olishingiz mumkin.
               </p>
             </div>
             <div className="search">
