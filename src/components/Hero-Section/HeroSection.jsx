@@ -8,6 +8,7 @@ const HeroSection = () => {
     <section id="home">
       <Container>
         <Row>
+          {/* <h1>test</h1> */}
           <Col lg="6" md="6">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
