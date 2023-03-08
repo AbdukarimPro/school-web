@@ -1,0 +1,19 @@
+.info {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+section {
+  padding-top: 20px !important;
+}
+
+.border i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.border h1 {
+  font-size: 1rem;
+}

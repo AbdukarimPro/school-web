@@ -13,7 +13,7 @@ const CoursesData = [
 
 const Courses = () => {
   return (
-    <section id="course">
+    <section className="bg-light">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">

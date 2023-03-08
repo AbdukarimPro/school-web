@@ -9,6 +9,7 @@ import {
   CardSubtitle,
   CardText,
 } from "reactstrap";
+import "./gallery.css"
 
 const CardData = [
   {
@@ -63,7 +64,7 @@ const CardData = [
 
 function gallery() {
   return (
-    <section>
+    <section className="bg-light">
       <Container>
         <Row>
           <div className="course__top d-flex justify-content-start align-items-center">

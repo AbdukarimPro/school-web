@@ -1,6 +1,9 @@
 .single__course__item {
   padding: 15px;
 }
+section {
+  padding-top: 20px !important;
+}
 
 .course__img img {
   border-radius: 10px;
