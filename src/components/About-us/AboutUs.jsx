@@ -7,8 +7,8 @@ import "./about.css";
 
 const AboutUs = () => {
   return (
-    <section className="bg-light">
-      <Container>
+    <section>
+      <Container data-aos="fade-up" data-aos-duration="3000">
         <Row>
           <Col lg="6" md="6">
             <div className="about__img">

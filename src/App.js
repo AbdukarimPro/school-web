@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
+// import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/Hero-Section/HeroSection";
 import AboutUs from "./components/About-us/AboutUs";
 import Courses from "./components/Courses-section/Courses";
@@ -11,6 +12,7 @@ const App = () => {
   return (
     <>
       <Header />
+      {/* <Navbar/> */}
       <Routes>
         <Route path="/" element={<HeroSection />} />
         <Route path="/about" element={<AboutUs />} />

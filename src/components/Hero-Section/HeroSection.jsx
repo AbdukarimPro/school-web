@@ -5,8 +5,8 @@ import "./hero-section.css";
 
 const HeroSection = () => {
   return (
-    <section className="bg-light">
-      <Container>
+    <section>
+      <Container data-aos="fade-up" data-aos-duration="3000">
         <Row>
           <Col lg="6" md="6">
             <div className="hero__content">
@@ -15,7 +15,10 @@ const HeroSection = () => {
                 Kelibsiz!
               </h2>
               <p className="mb-2">
-                Ushbu veb sayt 33-o'rta ta'lim maktabi <br /> uchun maxsus tayyorlandi.<br /> Bu veb sayt orqali maktab haqida ma'lumot <br/>olishingiz mumkin.
+                Ushbu veb sayt 33-o'rta ta'lim maktabi <br /> uchun maxsus
+                tayyorlandi.
+                <br /> Bu veb sayt orqali maktab haqida ma'lumot <br />
+                olishingiz mumkin.
               </p>
             </div>
             <div className="search">

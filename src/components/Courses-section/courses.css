@@ -1,7 +1,8 @@
 .single__course__item {
   padding: 15px;
 }
-section {
+.courses {
+  height: 100vh;
   padding-top: 20px !important;
 }
 

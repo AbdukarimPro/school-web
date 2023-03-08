@@ -31,7 +31,7 @@ const Header = () => {
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
   return (
-    <header className="header ">
+    <header className="header">
       <Container>
         <div className="navigation w-100 d-flex align-items-center justify-content-between">
           <div className="logo">

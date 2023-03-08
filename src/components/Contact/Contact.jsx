@@ -4,8 +4,8 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <section className="bg-light">
-      <Container>
+    <section >
+      <Container data-aos="fade-up" data-aos-duration="3000">
         <Row>
           <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-center align-items-center">
@@ -29,16 +29,16 @@ function Contact() {
           </Col>
           <Col lg="6" md="6">
             <div className="info">
-              <div className="border border-4 p-3 mb-2 rounded d-flex justify-content-start align-items-center">
+              <div className="border border-2 border-white p-3 mb-2 shadow d-flex justify-content-start align-items-center">
                 <i class="ri-phone-fill"></i>
                 <h1>+998 (93) 578 20 21</h1>
               </div>
-              <div className="border border-4 p-3 mb-2 rounded d-flex justify-content-start align-items-center">
-              <i class="ri-mail-fill"></i>
+              <div className="border border-2 border-white p-3 mb-2 shadow d-flex justify-content-start align-items-center">
+                <i class="ri-mail-fill"></i>
                 <h1>Abdukarimqarshiyev1@gmail.com</h1>
               </div>
-              <div className="border border-4 p-3 mb-2 rounded d-flex justify-content-start align-items-center">
-              <i class="ri-map-pin-fill"></i>
+              <div className="border border-2 border-white p-3 mb-2 shadow d-flex justify-content-start align-items-center">
+                <i class="ri-map-pin-fill"></i>
                 <h1>Kumkurgan,Surkhandaryo,Uzbekistan</h1>
               </div>
             </div>

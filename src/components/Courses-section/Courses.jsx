@@ -13,8 +13,8 @@ const CoursesData = [
 
 const Courses = () => {
   return (
-    <section className="bg-light">
-      <Container>
+    <section className="courses">
+      <Container data-aos="fade-up" data-aos-duration="3000">
         <Row>
           <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-between align-items-center">

@@ -10,6 +10,12 @@ section {
   padding-top: 20px !important;
 }
 
+.border{
+  width: 100%;
+  border-radius: 1rem !important;
+  background-color: rgb(222, 222, 222);
+}
+
 .border i {
   font-size: 1.5rem;
   margin-right: 1rem;

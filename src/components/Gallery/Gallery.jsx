@@ -9,7 +9,9 @@ import {
   CardSubtitle,
   CardText,
 } from "reactstrap";
-import "./gallery.css"
+import "./gallery.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CardData = [
   {
@@ -64,23 +66,26 @@ const CardData = [
 
 function gallery() {
   return (
-    <section className="bg-light">
-      <Container>
+    <section >
+      <Container data-aos="fade-up" data-aos-duration="3000">
         <Row>
           <div className="course__top d-flex justify-content-start align-items-center">
             <div className="course__top__left w-100">
               <h2>Yutuqlar</h2>
               <p>
-                Maktab o'qituvchilari va o'quvchilari tomonidan oldingan yutuqlar.
+                Maktab o'qituvchilari va o'quvchilari tomonidan oldingan
+                yutuqlar.
               </p>
             </div>
           </div>
 
           {CardData.map((item, index) => (
             <Col lg="" md="6" key={index}>
-              <Card 
+              <Card
+                data-aos="zoom-in-up"
                 style={{
-                  width: "18rem", marginBottom:" 2rem",
+                  width: "18rem",
+                  marginBottom: " 2rem",
                 }}
               >
                 <img alt="Sample" src={item.cardImg} />
